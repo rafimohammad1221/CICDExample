@@ -7,7 +7,7 @@ public class HelloWorldTest extends FunctionalTestCase {
 
     @Test
     public void cicdFlowReturnsHelloMaven() throws Exception {
-        runFlowAndExpect("cicd-exampleFlow", "Hello Maven");
+        runFlowAndExpect("cicd-exampleFlow", "Hello Maven");	
     }
     
   
